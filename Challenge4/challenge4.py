@@ -61,7 +61,6 @@ def drawCellGrid(cell_grid):
 
 
 if __name__ == "__main__":
-  cells = ""
   cell_grid = [""]
 
   print("Challenge 4: Rule 110")
@@ -78,7 +77,7 @@ if __name__ == "__main__":
   if cell_grid[0] == "":
     cell_grid[0] = "01101111100010011011101001101111100010011011111000100110111110001001101111100010011011111000100011111011011111000100110111110001001101111"
 
-  print("\nInitial cells: " + cells)
+  print("\nInitial cells: " + cell_grid[0])
   print("Number of rows: " + str(row_count))
 
   # Create cell grid using rule 110
